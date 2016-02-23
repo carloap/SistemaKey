@@ -1,0 +1,6 @@
+Reconhecimento por semelhança:
+
+preenche a ficha-padrão, entra no departamento interno, encontra o nome do usuario, compara as assinaturas, cadastra no sistema, imprime e carimba, vai pro caixa. (imprime no documento do cara a assinatura do carimbo).
+
+
+

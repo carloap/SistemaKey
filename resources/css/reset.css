@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* RESET */
+*           { margin:0; padding:0; border:0 }
+ol, ul      { list-style:none }
+a img       { border:0 }
+a           {text-decoration:none; color:#000}
+p           { margin-bottom:10px }
+h1          {font-weight:bold; font-size:25px; margin-bottom:15px}
+h2          {font-weight:bold; font-size:22px; margin-bottom:15px}
+h3          {font-weight:bold; font-size:18px; margin-bottom:15px}
+h4          {font-weight:bold; font-size:15px; margin-bottom:15px}
+h5          {font-weight:bold; font-size:12px}
+hr          {border-color:#ccc; border:0; height:1px }
+
+body        { font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#000 }
+
+/* posicionamentos */
+.fl         { display:inline; float:left }
+.fr         { display:inline; float:right }
+.fn         { float:none !important }
+.limpa      { clear:left }
+
+/* margem, borda e espaçamentos zerados */
+.nbl        { border-left:0 !important }
+.nbr        { border-right:0 !important }
+.nml        { margin-left:0 !important }
+.nmr        { margin-right:0 !important }
+.npl        { padding-left:0 !important }
+.npr        { padding-right:0 !important }

@@ -1,0 +1,14 @@
+carimbo:
+tipo
+- com valor 
+- sem valor
+- verdadeira
+
+
+termo(verdadeira)
+- numero sequ. e num do livro
+
+
+quando for verdadeira
+tem o termo num sequencial
+e o livro

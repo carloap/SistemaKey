@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* Fontes */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+         url('../fonts/roboto.eot#iefix') format("embedded-opentype"),
+         url('../fonts/roboto.woff') format('woff'),
+         url('../fonts/roboto.ttf') format('truetype'),
+         url('../fonts/roboto.svg') format('svg');
+}
+@font-face {
+    font-family: 'Dosis Extralight';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), local('Dosis'),
+         url('../fonts/dosis-extralight.eot#iefix') format("embedded-opentype"),
+         url('../fonts/dosis-extralight.woff') format('woff'),
+         url('../fonts/dosis-extralight.ttf') format('truetype'),
+         url('../fonts/dosis-extralight.svg') format('svg');
+}
+
+/* Layout */
+/*body                    { background:url('http://d34ymitoc1pg7m.cloudfront.net/bf3/backgrounds/bg-bf3-x2-c8d1f78b.jpg') no-repeat fixed center center #000; /*background-color:#272b30*/ }
+*/
+p                       { text-align: justify }
+#container              { position:relative; padding-right:220px; z-index:7500 }
+.main_header, .main_content, .main_footer { width:100% }
+.main_header                    { background-color:#131313; display:block; position:relative; z-index:7000; transition:2s }
+.main_header section.header_logo{ /*background:url('images/bg_powtarzalne_min.jpg') repeat #232323;*/ background-color:#131313; border-bottom:1px solid #111; display:block; position:relative }
+.main_header section.navigator  { background-color:#115463; border-bottom:1px solid #111; display:block; position:relative; z-index:8000; box-shadow:0 1px 4px rgba(30, 30, 30, 1) }
+.main_header section.navigator.gradient { background-image: linear-gradient(#076377, #0a5b6c 60%, #115463); }
+.header #logo           { float:left; margin-top:20px }
+.header #logo a         { width:311px; height:57px; display:block }
+.main_content           { position:relative }
+.main_footer            { position:relative; background-color:#313131 }
+
+footer .main_footer     { background:url('images/bg_powtarzalne_min.jpg') repeat #232323; display:block; position:relative }
+footer .main_credits    { position:relative; background-color:#131313 }
+
+.header                 { width:1000px; height:95px; position:relative; margin:0 auto; color:#fff }
+.content                { width:972px; position:relative; margin:0 auto; padding:12px 12px; border:1px solid #D8D8D8; background-color:#F4F4F4; box-shadow:0 4px 8px rgba(30, 30, 30, 0.5); color:#252525 }
+.footer                 { width:1000px; height:200px; position:relative; margin:0 auto; padding:20px 0; font-family: "Dosis Extralight", arial; color:#fff }
+.footer hr              { background-color:#666 }
+.credits                { width:1000px; height:50px; position:relative; margin:0 auto; line-height:45px; text-align:center; font-family: "Dosis Extralight", arial; color:#fff }
+.credits p              { text-align:center; margin:0 }
+
+/* Posicionamentos */
+#topo           { top:0; left:0; right:220px }
+.contSegmentado { margin-top:48px }
+.fixar          { position:fixed !important }
+
+
+/* Sidebar */
+#sidebar 		{ width:220px; display:block; position:fixed; top:0; right:0; bottom:0; background:url('images/bg_sidebar.png'); z-index:8000 }
+#sb_content 	{  }
+
+.nav                    { width:1000px; height:45px; position:relative; margin:0 auto; color:#fff }
+.nav ul                 { float:left; font-family:"Roboto", arial, verdana; font-size:14px;  }
+.nav ul li              { float:left; border-left: 1px solid #093f4b; border-right: 1px solid #14272b; }
+.nav ul li:first-child  { border-left:1px solid #093f4b }
+.nav ul li:hover        { background-color:#08404c; border-left-color:transparent }
+.nav ul li:active 		{ background-image:linear-gradient(#020202, #101112 40%, #191b1d); }
+.nav li a               { padding: 0 15px; color:#d9d9d9; display:block; text-transform:uppercase; line-height:45px; text-shadow:1px 0px #222; }
+.nav li a:hover         { color:#d9d9d9; height:45px; line-height:46px; }
+.nav li a:active        { color:#d9d9d9; height:45px; line-height:49px; transition:0.1s }
+.nav li a.current_menu       { background:#fff; color:#000; box-shadow:0 0px 5px #fff; text-shadow:none }
+.nav li a.current_menu:hover { color:#000; line-height:45px }
+.loading                { width:18px; height:25px; background:url('../icon/sync.gif') no-repeat center center #fff; display:inline-block; padding-right:5px; margin:10px 0 0 10px; border-radius:5px; text-indent:29px !important }
+.loading2				{ width:18px; height:25px; background:url('../icon/loading2.gif') no-repeat center center transparent; display:inline-block; padding-right:5px; margin:10px 0 0 10px; text-indent:29px !important }
+
+/* Conteúdo */
+.box_content    { min-height:100px; padding:12px 12px 20px 12px; margin-bottom:14px; background:#fff; border:1px solid #E8E8E8; border-bottom:2px solid #E8E8E8 }
+.box_content hr { height:1px; background-color:#EDEDED; margin:6px 0; display:block}
+.box_content p  { margin:20px 0 }
+.box_column_2     { width:479px; float:left; margin-right:14px }
+.box_column_3     { width:314px; float:left; margin-right:15px }
+.box_column_2 .box_content p, .box_column_3 .box_content p { margin:10px 0 }
+
+/* Estilizações diversas */
+ul.list-style { display:inline-block; list-style:square; margin:5px 0 0 20px;}
+ul.list-style li { margin-bottom:15px }
+
+
+
+
+/* Login */
+#login p                        { text-align: center; font-size: 25px; font-weight: bold; }
+#login #frmLogin                { width:280px; margin:0 auto }
+#login #frmLogin label          { float:left; margin:6px 0 }
+#login #frmLogin span           { display:block; width:58px; float:left }
+#login #frmLogin input          { padding:1px; border:1px solid #999; box-shadow:1px 1px 3px #666 }
+#login #frmLogin input:hover    { border:1px solid #bbb; }
+#login #frmLogin input:active   { border:1px solid #777; }
+#login #frmLogin input.txtcampo { width:160px; height:18px }
+#login #frmLogin input#btEnviar { min-width:58px; padding:2px 3px; margin-left:58px; cursor:pointer; border-radius: 3px; background-color:#eee}
+.content #login_erro            { width:349px; text-align:center; font-weight:700; color:#F00; background-color: #FFEBE8; border:1px solid #CC0000; border-radius:3px; margin:0 auto; padding:5px 0 }
+.content #login_erro p          { font-size:12px }

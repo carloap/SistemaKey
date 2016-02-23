@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Folha de estilos com recursos de animação em CSS3 */
+
+.loading_bf3 {
+    -webkit-animation: 0.5s step-start 0s normal none infinite loading_bf3;
+    -moz-animation: 0.5s step-start 0s normal none infinite loading_bf3;
+    -o-animation: 0.5s step-start 0s normal none infinite loading_bf3;
+    animation: 0.5s step-start 0s normal none infinite loading_bf3;
+    background: url("images/loading_sprite.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 18px;
+    height: 25px;
+    display: block;
+    margin:10px 0 0 10px;
+    vertical-align: middle
+}
+
+.loading_text {
+    text-indent:20px;
+    font-family: "Dosis Extralight", arial, verdana;
+    font-size:15px;
+    font-weight: normal;
+    text-transform:uppercase;
+    line-height:25px;
+    color:#D7EFFF
+}
+
+/* Esses quadros requerem a imagem de sprite */
+/* Chrome/Safari */
+@-webkit-keyframes loading_bf3 {
+    0% { background-position: 0 0px; }
+    6% { background-position: -18px 0px; }
+    14% { background-position: -36px 0px; }
+    20% { background-position: -54px 0px; }
+    28% { background-position: -72px 0px; }
+    36% { background-position: -90px 0px; }
+    42% { background-position: -108px 0px; }
+    48% { background-position: -126px 0px; }
+    56% { background-position: -144px 0px; }
+    64% { background-position: -162px 0px; }
+    70% { background-position: -180px 0px; }
+    78% { background-position: -198px 0px; }
+    86% { background-position: -216px 0px; }
+    94% { background-position: -234px 0px; }
+    100% { background-position: -252px 0px; }
+}
+/* Firefox */
+@-moz-keyframes loading_bf3 {
+    0% { background-position: 0 0px; }
+    6% { background-position: -18px 0px; }
+    14% { background-position: -36px 0px; }
+    20% { background-position: -54px 0px; }
+    28% { background-position: -72px 0px; }
+    36% { background-position: -90px 0px; }
+    42% { background-position: -108px 0px; }
+    48% { background-position: -126px 0px; }
+    56% { background-position: -144px 0px; }
+    64% { background-position: -162px 0px; }
+    70% { background-position: -180px 0px; }
+    78% { background-position: -198px 0px; }
+    86% { background-position: -216px 0px; }
+    94% { background-position: -234px 0px; }
+    100% { background-position: -252px 0px; }
+}
+/* Opera */
+@-o-keyframes loading_bf3 {
+    0% { background-position: 0 0px; }
+    6% { background-position: -18px 0px; }
+    14% { background-position: -36px 0px; }
+    20% { background-position: -54px 0px; }
+    28% { background-position: -72px 0px; }
+    36% { background-position: -90px 0px; }
+    42% { background-position: -108px 0px; }
+    48% { background-position: -126px 0px; }
+    56% { background-position: -144px 0px; }
+    64% { background-position: -162px 0px; }
+    70% { background-position: -180px 0px; }
+    78% { background-position: -198px 0px; }
+    86% { background-position: -216px 0px; }
+    94% { background-position: -234px 0px; }
+    100% { background-position: -252px 0px; }
+}
+@keyframes loading_bf3 {
+    0% { background-position: 0 0px; }
+    6% { background-position: -18px 0px; }
+    14% { background-position: -36px 0px; }
+    20% { background-position: -54px 0px; }
+    28% { background-position: -72px 0px; }
+    36% { background-position: -90px 0px; }
+    42% { background-position: -108px 0px; }
+    48% { background-position: -126px 0px; }
+    56% { background-position: -144px 0px; }
+    64% { background-position: -162px 0px; }
+    70% { background-position: -180px 0px; }
+    78% { background-position: -198px 0px; }
+    86% { background-position: -216px 0px; }
+    94% { background-position: -234px 0px; }
+    100% { background-position: -252px 0px; }
+}
